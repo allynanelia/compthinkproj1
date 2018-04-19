@@ -1,0 +1,12 @@
+Each CSV file contains 10 rows.
+- each row contains 1 test case. so each CSV file contains 10 test cases
+- each test case (or row) contains 100 items in this format: width(item0), length(item0), width(item1), length(item1)...
+- it is not guaranteed that the width is shorter than the length in these test cases. 
+
+Description of CSV files:
+- data1: items are all small             (1x1 to 10x10)  approx avg area:  5.4
+- data2: items are small to middle-sized (1x1 to 20x20)  approx avg area: 10.2
+- data3: items are all middle-sized      (1x10 to 20x20) approx avg area: 12.5
+- data4: items are middle-sized to large (1x10 to 30x30) approx avg area: 16.7
+- data5: items are large                 (1x20 to 30x30) approx avg area: 19.6
+- data6: items are mixed                 (1x1 to 30x30)  approx avg area: 16.1
